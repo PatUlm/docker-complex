@@ -13,7 +13,7 @@ after_success:
   - docker build -t pulmer75/complex-nginx ./nginx
   - docker build -t pulmer75/complex-server ./server
   - docker build -t pulmer75/complex-worker ./worker
-  - echon "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push pulmer75/complex-client
   - docker push pulmer75/complex-nginx
   - docker push pulmer75/complex-server
