@@ -8,7 +8,7 @@ const App = () => (
   <Router>
     <div className="App">
       <header className="App-header">
-        <Link className="App-link" to="/">Home</Link>
+        <Link className="App-link" to="/">Fib Calculator</Link>
         <Link className="App-link" to="/otherpage">Other Page</Link>
       </header>
       <div className="Container">
