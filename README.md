@@ -1,8 +1,17 @@
 ## Links
 
 - https://travis-ci.com/
-- [Amazon ECS Container Definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html#container_definitions)
 - [DockerHub Repositories](https://hub.docker.com/repositories)
+- https://aws.amazon.com/de/console/
+
+## Docs
+
+- [Amazon ECS Container Definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html#container_definitions)
+
+## Important Files
+
+- `.travis.yml`
+- `Dockerrun.aws.json`
 
 ## Operation
 
