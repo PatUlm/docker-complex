@@ -18,6 +18,10 @@ spec:
             claimName: database-persistent-volume-claim
       containers:
         - name: postgres
-          image: postgres:13.1
+          image: postgres:13.2
           ports:
             - containerPort: 5432
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: postgres-storage
+              subPath: postgres
